@@ -1,4 +1,3 @@
-
 public class Bomb extends Item {
 	private int removeVidas = -1;
 

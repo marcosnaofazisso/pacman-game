@@ -1,4 +1,3 @@
-
 import java.awt.Image;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -137,7 +136,7 @@ public class GameP extends JFrame implements KeyListener {
 				desligarInvencibilidade = turno + booster.getDuracaoBooster();
 				booster.setVisivel(false);
 				player.setInvencivel(true);
-				System.out.println("Está invencível!");
+				System.out.println("Estï¿½ invencï¿½vel!");
 			}
 			
 			if (desligarInvencibilidade == turno) {
@@ -146,7 +145,7 @@ public class GameP extends JFrame implements KeyListener {
 				booster.setPosicaoX((int) (aleatorio / 10) * 10);
 				booster.setPosicaoY((int) (aleatorio / 10) * 10);
 				booster.setVisivel(true);
-				System.out.println("Não está mais invencível");
+				System.out.println("Nï¿½o estï¿½ mais invencï¿½vel");
 			}
 			
 
@@ -187,7 +186,7 @@ public class GameP extends JFrame implements KeyListener {
 			render();
 
 		}
-		JOptionPane.showMessageDialog(this,"Parabéns! Você conseguiu sobreviver por " + turno + " turnos");
+		JOptionPane.showMessageDialog(this,"Parabï¿½ns! Vocï¿½ conseguiu sobreviver por " + turno + " turnos");
 
 	}
 
