@@ -1,4 +1,3 @@
-
 public class Booster extends Item {
 	private int duracaoBooster;
 

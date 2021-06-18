@@ -1,4 +1,3 @@
-
 public class Item extends GameObject {
 	private boolean visivel;
 

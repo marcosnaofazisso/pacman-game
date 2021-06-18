@@ -1,4 +1,3 @@
-
 public class GameObject {
 	private int posicaoX;
 	private int posicaoY;
@@ -16,7 +15,7 @@ public class GameObject {
 	public GameObject(int posicaoX, int posicaoY) {
 		super();
 		if (posicaoX < 0 || posicaoY < 0) {
-			System.out.println("Posição inválida");
+			System.out.println("Posiï¿½ï¿½o invï¿½lida");
 			
 		}
 		this.posicaoX = posicaoX;
@@ -30,7 +29,7 @@ public class GameObject {
 
 	public void setPosicaoX(int posicaoX) {
 		if (posicaoX < 0) {
-			System.out.println("Posição inválida");
+			System.out.println("Posiï¿½ï¿½o invï¿½lida");
 			this.posicaoX = 0;
 		}
 		this.posicaoX = posicaoX;
@@ -42,7 +41,7 @@ public class GameObject {
 
 	public void setPosicaoY(int posicaoY) {
 		if (posicaoY < 0) {
-			System.out.println("Posição inválida");
+			System.out.println("Posiï¿½ï¿½o invï¿½lida");
 			this.posicaoY = 0;
 		}
 		this.posicaoY = posicaoY;
@@ -54,7 +53,7 @@ public class GameObject {
 
 	public void setTelaX(int telaX) {
 		if (telaX < 0) {
-			System.out.println("Posição inválida");
+			System.out.println("Posiï¿½ï¿½o invï¿½lida");
 			this.telaX = 0;
 		}
 		this.telaX = telaX;
@@ -66,7 +65,7 @@ public class GameObject {
 
 	public void setTelaY(int telaY) {
 		if (telaY < 0) {
-			System.out.println("Posição inválida");
+			System.out.println("Posiï¿½ï¿½o invï¿½lida");
 			this.telaY = 0;
 		}
 		this.telaY = telaY;

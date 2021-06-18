@@ -1,4 +1,3 @@
-
 public class Ghost extends GameObject {
 	private int direcaoGhost;
 
@@ -61,7 +60,7 @@ public class Ghost extends GameObject {
 
 	public void setDirecaoGhost(int direcaoGhost) {
 		if (direcaoGhost < 0) {
-			System.out.println("Direção inválida.");
+			System.out.println("Direï¿½ï¿½o invï¿½lida.");
 		}
 		this.direcaoGhost = direcaoGhost;
 	}
